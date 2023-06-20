@@ -10,4 +10,4 @@ Para iniciar a desarrollar este proyecto proyecto tendremos que tene instalado *
 * **info** 
     - cd TF-PM1-JHVJ
     - npm install   
-    - npm run dev   
+    - npm run dev  
