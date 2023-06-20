@@ -7,7 +7,7 @@ el cual va estar creado con React y Tailwind CSS
 Para iniciar a desarrollar este proyecto proyecto tendremos que tene instalado **Node** , utilizaremos **Vite** para crear la App de React y para el control de versiones utilizaremos **Git** el historial de comandos utilizados son los siguientes:
 * Git init (inicializaremos el repositorio eh guardamos sus cambios).
 * npm create vite@latest (creamos el proyecto de react y tailwind).
-**info** 
-- cd TF-PM1-JHVJ
-- npm install   
-- npm run dev   
+* **info** 
+    - cd TF-PM1-JHVJ
+    - npm install   
+    - npm run dev   
