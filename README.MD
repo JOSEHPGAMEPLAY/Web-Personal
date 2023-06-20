@@ -11,3 +11,6 @@ Para iniciar a desarrollar este proyecto proyecto tendremos que tene instalado *
     - cd TF-PM1-JHVJ
     - npm install   
     - npm run dev  
+* Instalamos tailwind css a través de npm y creeamos su tailwind.config.js archivo.
+    - npm install -D tailwindcss
+    - npx tailwindcss init
