@@ -12,5 +12,5 @@ Para iniciar a desarrollar este proyecto proyecto tendremos que tene instalado *
     - npm install   
     - npm run dev  
 * Instalamos tailwind css a través de npm y creeamos su tailwind.config.js archivo.
-    - npm install -D tailwindcss
-    - npx tailwindcss init
+    - npm install -D tailwindcss postcss autoprefixer
+    - npx tailwindcss init -p
