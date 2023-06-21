@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .cabeceraC{
+        @apply flex flex-wrap grow-[1];
+    }
+    
+    .user{
+        @apply flex flex-nowrap items-center;
+    }
+    
+    .IconoP{
+        @apply rounded-full w-24;
+    }
+    
+    .NameP{
+        @apply font-Lilita font-black text-[50px];
+    }
+}
