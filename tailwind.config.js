@@ -7,6 +7,9 @@ export default {
       'Lilita':['Lilita one']
     }
   },
-  plugins: [],
+  plugins: [
+    // eslint-disable-next-line no-undef
+    require('tailwindcss-animated'),require('@tailwindcss/forms')
+  ],
 }
 

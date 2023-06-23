@@ -14,3 +14,7 @@ Para iniciar a desarrollar este proyecto proyecto tendremos que tene instalado *
 * Instalamos tailwind css a través de npm y creeamos su tailwind.config.js archivo.
     - npm install -D tailwindcss postcss autoprefixer
     - npx tailwindcss init -p
+    - npm i tailwindcss-animated
+    - npm install -D @tailwindcss/forms
+* Instalamos la libreria de DarkReader
+    - npm install darkreader

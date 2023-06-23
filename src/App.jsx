@@ -7,7 +7,6 @@ function App() {
         <Header/>
       </div>
       <div className="contenido">
-        xd
       </div>
     </div>
   );

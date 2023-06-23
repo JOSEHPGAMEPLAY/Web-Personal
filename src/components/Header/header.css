@@ -4,18 +4,71 @@
 
 @layer components{
     .cabeceraC{
-        @apply flex flex-wrap grow-[1];
+        @apply flex flex-nowrap bg-neutral-400 justify-center;
     }
     
+    /* Usuario info */
     .user{
-        @apply flex flex-nowrap items-center;
+        @apply flex flex-nowrap items-center p-3 min-w-max order-first;
     }
     
     .IconoP{
-        @apply rounded-full w-24;
+        @apply rounded-full w-20 drop-shadow-md ;   
     }
     
     .NameP{
-        @apply font-Lilita font-black text-[50px];
+        @apply font-Lilita font-black text-[#353030] text-[40px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)] ml-3;
     }
+
+    /* Secciones */
+
+    .SeccionesP{
+        @apply flex place-content-center p-3 font-Lilita font-light text-[#353030] text-[20px] drop-shadow-[0px_0px_2px_rgba(0,0,0,0.2)] flex-wrap m-auto;
+    }
+
+    .Botones{
+        @apply self-center rounded bg-gray-300 p-1 m-1;
+    }
+
+    .TemaS{
+        @apply flex-none ml-auto self-center mr-5;
+    }
+
+    .barraT{
+        @apply w-20 h-8 rounded-full bg-white flex items-center transition duration-300 focus:outline-none shadow;
+    }
+
+    .light{
+        @apply w-12 h-12 relative rounded-full transition duration-500 p-1 text-gray-500 transform bg-slate-950 translate-x-full;
+    }
+    
+    .dark{
+        @apply w-12 h-12 relative rounded-full transition duration-500 p-1 text-black transform bg-yellow-500 -translate-x-2;
+    }
+
+    
+
+    /* Animaciones */
+    
+    .animacionU{
+        @apply flex flex-nowrap items-center p-3 min-w-max animate-jump animate-duration-[5000ms] ;
+    }
+
+    .animacionB{
+        @apply animate-pulse animate-normal animate-duration-[1s];
+        @apply rounded bg-gray-200 p-1 m-1;
+    }
+
+    /* Redistribucion */
+
+    @media (max-width: 635px){
+        .cabeceraC{
+            @apply flex-wrap;
+        }
+
+        .SeccionesP{
+            @apply order-2;
+        }
+    }
+
 }
