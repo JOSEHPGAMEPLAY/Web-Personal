@@ -11,4 +11,7 @@
   .contenido{
     @apply grow-[999]
   }
+  .app{
+    @apply flex flex-col min-h-full flex-wrap p-0 m-0
+  }
 }

@@ -1,0 +1,1 @@
+export const InfRutas = ["/","/about","/skills","/estudios","/experiencia","/contacto"]

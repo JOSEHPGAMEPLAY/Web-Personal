@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .contenido{
+        @apply flex
+         dark:bg-[#524b4b]
+    }
+
+    .Bderecha{
+        @apply m-1 w-14 h-14  inset-y-0 left-0 rounded-full
+         bg-gradient-to-r from-[#eab20863] via-[#eab20885] to-[#eab208d5]
+        dark:bg-gradient-to-r dark:from-[#71717a4d] dark:via-[#71717a83] dark:to-[#71717ac5]
+        dark:text-white
+    }
+    
+    .Bizquierda{
+        @apply m-1 w-14 h-14  inset-y-0 left-0 rounded-full 
+         bg-gradient-to-r from-[#eab208d5] via-[#eab20885] to-[#eab20863]
+         dark:bg-gradient-to-r dark:from-[#71717ac5] dark:via-[#71717a83] dark:to-[#71717a4d]
+         dark:text-white
+    }
+
+    .IconIzq{
+        @apply fill-white
+    }
+    
+    .IconDer{
+        @apply fill-white ml-1
+    }
+
+
+    .componente{
+        @apply min-h-max min-w-max grow-[999] 
+    }
+
+}

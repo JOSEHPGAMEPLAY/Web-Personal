@@ -5,9 +5,9 @@
 @layer components{
     
     .cabeceraC{
-        @apply flex flex-nowrap bg-neutral-400 justify-center;
+        @apply flex flex-nowrap bg-neutral-400 justify-center
         /* dark */
-        @apply dark:bg-[#353030]
+         dark:bg-[#353030]
     }
     
     /* Usuario info */
@@ -23,10 +23,10 @@
     }
     
     .NameP{
-        color: rgba(190, 186, 190, 0.596);
-        @apply font-Lilita font-black text-[#353030] text-[40px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)] ml-3;
+        color: rgba(38, 102, 67, 0.596);
+        @apply font-Lilita font-black text-[#353030] text-[40px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)] ml-3
         /* dark */
-        @apply dark:text-white drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)]
+        dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
     }
     
     /* Secciones */
@@ -54,12 +54,12 @@
         dark:bg-black ;
     }
     
-    .sol{
+    .luna{
         @apply w-12 h-12 relative rounded-full transition duration-500 p-1 text-white transform bg-zinc-500 translate-x-full;
         /* dark */
     }
     
-    .luna{
+    .sol{
         @apply w-12 h-12 relative rounded-full transition duration-500 p-1 text-black transform bg-yellow-500 -translate-x-2;
         /* dark */
     }
@@ -104,15 +104,16 @@
         }
         
         .barraT{
-            @apply w-12 h-12 bg-transparent;
+            @apply w-12 h-12 bg-transparent
             /* dark */
+            dark:bg-transparent
         }
-        .sol{
+        .luna{
             @apply w-12 h-12 overflow-visible rounded-full transition duration-500 p-1 text-gray-500 transform bg-slate-950 -translate-x-2;
             /* dark */
         }
         
-        .luna{
+        .sol{
             @apply w-12 h-12 overflow-visible rounded-full transition duration-500 p-1 text-black transform bg-yellow-500 -translate-x-2;
             /* dark */
         }

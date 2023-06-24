@@ -10,13 +10,9 @@ function App() {
   };
 
   return (
-    <div className={"flex flex-col min-h-screen flex-wrap "+tema} >
-      <div className="cabecera">
+    <div className={"app "+tema} >
         <Header temaVal={asignatema}/>
-      </div>
-      <div className="contenido">
-        <Contenido/>
-      </div>
+      <Contenido className="p-0 m-0"/>
     </div>
   );
 }

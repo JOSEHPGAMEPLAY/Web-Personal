@@ -1,7 +1,7 @@
-import React from 'react'
-
 export default function Index() {
   return (
-    <div>Index</div>
+    <div className='min-w-max min-h-full'>
+      
+    </div>
   )
 }
