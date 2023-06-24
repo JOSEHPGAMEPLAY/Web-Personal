@@ -3,72 +3,119 @@
 @tailwind utilities;
 
 @layer components{
+    
     .cabeceraC{
         @apply flex flex-nowrap bg-neutral-400 justify-center;
+        /* dark */
+        @apply dark:bg-[#353030]
     }
     
     /* Usuario info */
     .user{
         @apply flex flex-nowrap items-center p-3 min-w-max order-first;
+        /* dark */
     }
     
     .IconoP{
-        @apply rounded-full w-20 drop-shadow-md ;   
+        @apply rounded-full w-20 drop-shadow-md  
+        /* dark */
+        dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.3)]
     }
     
     .NameP{
+        color: rgba(190, 186, 190, 0.596);
         @apply font-Lilita font-black text-[#353030] text-[40px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)] ml-3;
+        /* dark */
+        @apply dark:text-white drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)]
     }
-
+    
     /* Secciones */
-
+    
     .SeccionesP{
-        @apply flex place-content-center p-3 font-Lilita font-light text-[#353030] text-[20px] drop-shadow-[0px_0px_2px_rgba(0,0,0,0.2)] flex-wrap m-auto;
+        @apply flex place-content-center p-3 font-Lilita font-light text-[#353030] text-[20px] drop-shadow-[0px_0px_2px_rgba(0,0,0,0.2)] flex-wrap m-auto
+        /* dark */
+        dark:text-yellow-50;
     }
-
+    
     .Botones{
-        @apply self-center rounded bg-gray-300 p-1 m-1;
+        @apply self-center rounded bg-gray-300 p-1 m-1
+        /* dark */
+         dark:bg-gray-500;
     }
-
+    
     .TemaS{
         @apply flex-none ml-auto self-center mr-5;
+        /* dark */
     }
-
+    
     .barraT{
-        @apply w-20 h-8 rounded-full bg-white flex items-center transition duration-300 focus:outline-none shadow;
-    }
-
-    .light{
-        @apply w-12 h-12 relative rounded-full transition duration-500 p-1 text-gray-500 transform bg-slate-950 translate-x-full;
+        @apply w-20 h-8 rounded-full bg-white flex items-center transition duration-300 focus:outline-none shadow
+        /* dark */
+        dark:bg-black ;
     }
     
-    .dark{
+    .sol{
+        @apply w-12 h-12 relative rounded-full transition duration-500 p-1 text-white transform bg-zinc-500 translate-x-full;
+        /* dark */
+    }
+    
+    .luna{
         @apply w-12 h-12 relative rounded-full transition duration-500 p-1 text-black transform bg-yellow-500 -translate-x-2;
+        /* dark */
     }
-
     
-
+    
+    
     /* Animaciones */
     
     .animacionU{
         @apply flex flex-nowrap items-center p-3 min-w-max animate-jump animate-duration-[5000ms] ;
     }
-
+    
     .animacionB{
-        @apply animate-pulse animate-normal animate-duration-[1s];
-        @apply rounded bg-gray-200 p-1 m-1;
+        @apply animate-pulse animate-normal animate-duration-[1s]
+        rounded bg-gray-600 text-gray-50 p-1 m-1 
+        /* dark */
+        dark:bg-slate-100  dark:text-zinc-800;
     }
-
+    
     /* Redistribucion */
-
+    
     @media (max-width: 635px){
         .cabeceraC{
             @apply flex-wrap;
         }
-
+        
         .SeccionesP{
             @apply order-2;
+            /* dark */
         }
     }
-
+    
+    @media (max-width: 364px){
+        .cabeceraC{
+            @apply flex-wrap;
+            /* dark */
+        }
+        
+        .SeccionesP{
+            @apply order-2;
+            /* dark */
+        }
+        
+        .barraT{
+            @apply w-12 h-12 bg-transparent;
+            /* dark */
+        }
+        .sol{
+            @apply w-12 h-12 overflow-visible rounded-full transition duration-500 p-1 text-gray-500 transform bg-slate-950 -translate-x-2;
+            /* dark */
+        }
+        
+        .luna{
+            @apply w-12 h-12 overflow-visible rounded-full transition duration-500 p-1 text-black transform bg-yellow-500 -translate-x-2;
+            /* dark */
+        }
+    }
 }
+

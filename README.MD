@@ -16,5 +16,5 @@ Para iniciar a desarrollar este proyecto proyecto tendremos que tene instalado *
     - npx tailwindcss init -p
     - npm i tailwindcss-animated
     - npm install -D @tailwindcss/forms
-* Instalamos la libreria de DarkReader
-    - npm install darkreader
+    
+    - npm i react-router-dom
