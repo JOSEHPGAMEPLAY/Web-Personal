@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .cabecera{
+    @apply grow-[1] shrink-0;
+  }
+
+  .contenido{
+    @apply grow-[999]
+  }
+}
