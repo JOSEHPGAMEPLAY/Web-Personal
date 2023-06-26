@@ -5,9 +5,9 @@
 @layer components{
     
     .cabeceraC{
-        @apply flex flex-nowrap bg-neutral-400 justify-center
+        @apply flex flex-nowrap bg-[#ffffff00] justify-center backdrop-blur-[30px] border-b-2 border-slate-600
         /* dark */
-         dark:bg-[#353030]
+         dark:bg-[#353030e7] border-b-2 border-slate-400
     }
     
     /* Usuario info */
@@ -17,14 +17,15 @@
     }
     
     .IconoP{
-        @apply rounded-full w-20 drop-shadow-md  
+        @apply rounded-full w-20  
+        drop-shadow-[0px_0px_5px_rgba(255,255,255,1)]
         /* dark */
-        dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.3)]
+        dark:drop-shadow-[0px_0px_2px_rgba(190,186,190,1)]
     }
     
     .NameP{
-        color: rgba(38, 102, 67, 0.596);
-        @apply font-Lilita font-black text-[#353030] text-[40px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)] ml-3
+        @apply font-Lilita font-black text-[#353030] text-[40px]
+        drop-shadow-[0px_0px_10px_rgba(255,255,255,1)] ml-3
         /* dark */
         dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
     }
@@ -42,6 +43,11 @@
         /* dark */
          dark:bg-gray-500;
     }
+
+    .Botones:hover{
+        @apply ring-offset-2 ring-2 ring-slate-950
+        
+    }
     
     .TemaS{
         @apply flex-none ml-auto self-center mr-5;
@@ -49,7 +55,7 @@
     }
     
     .barraT{
-        @apply w-20 h-8 rounded-full bg-white flex items-center transition duration-300 focus:outline-none shadow
+        @apply w-20 h-8 rounded-full bg-[#d4eaff] flex items-center transition duration-300 focus:outline-none shadow
         /* dark */
         dark:bg-black ;
     }

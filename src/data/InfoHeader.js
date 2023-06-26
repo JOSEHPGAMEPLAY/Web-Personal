@@ -1,5 +1,5 @@
 export const DHeader = {
-    img:"../../public/img/Icono.png",
+    img:"../../img/Icono.png",
     nombre:"JOSEHP",
     btn1:"ABOUT",
     btn2:"SKILLS",

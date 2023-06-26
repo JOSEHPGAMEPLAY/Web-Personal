@@ -35,6 +35,7 @@ function  Header({ temaVal }) {
     }
 
     return (
+        <div className="sticky">
         <header className={"cabeceraC"}>
             <Link to="/">
                 <div className={userfijo} onMouseOver={()=>setUserfijo('animacionU')}onMouseLeave={()=>setUserfijo('user')} >
@@ -80,6 +81,7 @@ function  Header({ temaVal }) {
                 </button>
             </div>
         </header>
+        </div>
     );
 }
 

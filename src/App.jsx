@@ -11,8 +11,10 @@ function App() {
 
   return (
     <div className={"app "+tema} >
-        <Header temaVal={asignatema}/>
-      <Contenido className="p-0 m-0"/>
+      <div className="sticky top-0 min-w-full z-50">
+        <Header temaVal={asignatema} className="cabecera"/>
+      </div>
+      <Contenido className="contenido"/>
     </div>
   );
 }

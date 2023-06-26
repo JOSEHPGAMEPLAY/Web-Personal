@@ -36,9 +36,11 @@ function Contenido() {
   return (
     <div className="contenido">
 
-      <Link to={NexR} className="self-center" onClickCapture={CambioMen}>
+      <Link to={NexR} className="place-self-center inset-y-1/2 left-0 ocultar" onClickCapture={CambioMen}>
         <button className="Bizquierda" >
-          <svg xmlns="http://www.w3.org/2000/svg" className="IconIzq" height="48" viewBox="0 -960 960 960" width="48"><path d="M655-80 255-480l400-400 56 57-343 343 343 343-56 57Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" className="IconDir" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
         </button>
       </Link>
             
@@ -46,9 +48,12 @@ function Contenido() {
         <Rutas />
       </div>
 
-      <Link to={NexR} className="self-center" onClickCapture={CambioMas}>
+      <Link to={NexR} className="self-center inset-y-1/2 right-0 ocultar" onClickCapture={CambioMas}>
         <button className="Bderecha" >
-          <svg xmlns="http://www.w3.org/2000/svg" className="IconDer" height="48" viewBox="0 -960 960 960" width="48"><path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" className="IconDir" fill="none" viewBox="0 0 24 24" strokeWidth="1.5">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+
         </button>
       </Link>
     </div>
