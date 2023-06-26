@@ -11,13 +11,17 @@
 
     .IconDir{
         @apply stroke-black stroke-[2]
-        w-14 h-14 rounded-full
+        w-14 h-14
         bg-[#eab20800]
         drop-shadow-[0px_0px_4px_rgba(0,0,0,1)]
     }
+
+    .Boton{
+        @apply h-[100vh] rounded-full flex
+    }
     
     /* animacion */
-    .IconDir:hover{
+    .Boton:hover{
         @apply bg-white
         dark:bg-[#71717a]
 
@@ -25,6 +29,20 @@
 
     .componente{
         @apply grow-[999] p-3
+    }
+
+    /* Animaciones */
+
+    .entrada{
+        @apply animate-fade-left animate-once animate-duration-[1500ms] animate-delay-200 animate-ease-linear animate-reverse animate-fill-backwards 
+    }
+
+    .derecha{
+        @apply animate-fade-right animate-once animate-duration-[1500ms] animate-delay-0 animate-ease-in animate-normal animate-fill-forwards
+    }
+    
+    .izquierda{
+        @apply animate-fade-left animate-once animate-duration-[1500ms] animate-delay-0 animate-ease-in animate-normal animate-fill-forwards
     }
 
 

@@ -6,7 +6,8 @@
     
     .indexC{
         @apply flex  bg-gray-300 rounded-xl flex-wrap justify-around 
-        dark:bg-zinc-900
+        p-10
+        dark:bg-zinc-900 
     }
     
     .imgCI{
@@ -38,21 +39,29 @@
     
     .tituloS{
         @apply font-Lilita text-[30px]
+        dark:text-zinc-50
     }
 
     .texto{
         @apply text-[20px]
+        dark:text-zinc-100
     }
-
+    
     .lista{
-        @apply list-disc list-inside text-slate-900 font-[Arial] text-[17px]
+        @apply list-disc list-inside text-slate-900 font-[Arial] text-[17px] 
+        dark:text-zinc-100
     }
 
     .listaI{
-        @apply text-justify
+        @apply leading-5 pb-4
     }
 
     @media(max-width:867px){
+        
+        .indexC{
+            @apply p-0
+        }
+
         .imgCI{
             @apply flex grow w-3/6 m-7 justify-around 
         }
@@ -61,10 +70,6 @@
             @apply rounded-tr-[20%] 
         }
 
-    }
-    
-    .entrada{
-        @apply animate-jump-out animate-once animate-duration-[1500ms] animate-delay-200 animate-ease-linear animate-reverse animate-fill-backwards 
     }
     
     /*.salida{

@@ -3,7 +3,7 @@ import './Index.css';
 
 export default function Index() {
   return (
-    <div className="indexC entrada" >
+    <div className="indexC" >
       <div className='imgCI'>
         <img src={InfoIndex.img} className="imagenI"></img>
       </div>
