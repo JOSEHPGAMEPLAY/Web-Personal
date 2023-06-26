@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    
+    .indexC{
+        @apply flex  bg-gray-300 rounded-xl flex-wrap justify-around 
+        dark:bg-zinc-900
+    }
+    
+    .imgCI{
+        @apply shrink flex m-7
+        w-80
+    }
+    
+    .imagenI{
+        @apply rounded-tr-[60%] rounded-bl-[20%] rounded-br-[20%] rounded-tl-[10%]  
+        w-80
+        drop-shadow-[0px_0px_7px_rgba(0,0,0,1)]
+    }
+    
+    .tituloCI{
+        @apply flex flex-col m-7 align-middle self-center shrink grow flex-1
+    }
+    
+    .tituloP{
+        @apply font-Lilita font-black text-[#201a1a] text-[40px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)] ml-3
+        self-center align-middle text-center shrink grow
+        /* dark */
+        dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
+    }
+
+    .infoI{
+        @apply flex flex-col m-7
+        bg-scroll
+    }
+    
+    .tituloS{
+        @apply font-Lilita text-[30px]
+    }
+
+    .texto{
+        @apply text-[20px]
+    }
+
+    .lista{
+        @apply list-disc list-inside text-slate-900 font-[Arial] text-[17px]
+    }
+
+    .listaI{
+        @apply text-justify
+    }
+
+    @media(max-width:867px){
+        .imgCI{
+            @apply flex grow w-3/6 m-7 justify-around 
+        }
+
+        .imagenI{
+            @apply rounded-tr-[20%] 
+        }
+
+    }
+    
+    .entrada{
+        @apply animate-jump-out animate-once animate-duration-[1500ms] animate-delay-200 animate-ease-linear animate-reverse animate-fill-backwards 
+    }
+    
+    /*.salida{
+        animation: myAnim 1s ease 0s 1 normal forwards;
+    }
+    @keyframes myAnim {
+        0% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    
+        100% {
+            opacity: 0;
+            transform: scale(0.6);
+        }
+    } */
+}   
+
