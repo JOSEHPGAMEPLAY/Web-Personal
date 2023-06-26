@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useLocation, Link } from 'react-router-dom';
 import { InfRutas } from "../../data/infoRutas";
 import "./Content.css"
+import 'animate.css'
+
 
 function Contenido() {
 
@@ -21,11 +23,11 @@ function Contenido() {
     }
     else{
       setNexR(InfRutas[num-1])
-      setentrada("derecha")
+      setentrada(" animate-backInLeft animate-duration-1500 animate-ease-in-out animate-fill-forwards")
       settiempo(false);
       setTimeout(() => {
         settiempo(true);
-      }, 1500);
+      }, 3000);
     }
   }
   
@@ -36,11 +38,11 @@ function Contenido() {
     }
     else{
       setNexR(InfRutas[num+1])
-      setentrada("izquierda")
+      setentrada(" animate-backInRight animate-duration-1000 animate-ease-in-out animate-fill-forwards")
       settiempo(false);
         setTimeout(() => {
           settiempo(true);
-        }, 1500);
+        }, 1000);
     }
   }
 
@@ -55,7 +57,7 @@ function Contenido() {
         </button>
       </Link>
             
-      <div className={tiempo?"componente ":"componente "+entrada}>
+      <div className={tiempo?"componente":"componente "+entrada}>
         <Rutas />
       </div>
 
@@ -64,9 +66,10 @@ function Contenido() {
           <svg xmlns="http://www.w3.org/2000/svg" className="IconDir" fill="none" viewBox="0 0 24 24" strokeWidth="1.5">
             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
           </svg>
-
         </button>
       </Link>
+
+    
     </div>
   )
 }

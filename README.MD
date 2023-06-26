@@ -16,5 +16,5 @@ Para iniciar a desarrollar este proyecto proyecto tendremos que tene instalado *
     - npx tailwindcss init -p
     - npm i tailwindcss-animated
     - npm install -D @tailwindcss/forms
-    
     - npm i react-router-dom
+    - npm install animate.css --save

@@ -5,7 +5,7 @@
 @layer components{
     
     .indexC{
-        @apply flex  bg-gray-300 rounded-xl flex-wrap justify-around 
+        @apply flex bg-gray-300 rounded-xl flex-wrap justify-around 
         p-10
         dark:bg-zinc-900 
     }
@@ -26,7 +26,7 @@
     }
     
     .tituloP{
-        @apply font-Lilita font-black text-[#201a1a] text-[40px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)] ml-3
+        @apply font-Lilita font-black text-[#201a1a] text-8xl drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
         self-center align-middle text-center shrink grow
         /* dark */
         dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
@@ -38,8 +38,16 @@
     }
     
     .tituloS{
-        @apply font-Lilita text-[30px]
+        @apply font-Lilita text-[30px] 
         dark:text-zinc-50
+    }
+
+    .cambiaP1{
+        @apply text-7xl
+    }
+
+    .cambiaP2{
+        @apply text-4xl
     }
 
     .texto{
@@ -56,6 +64,10 @@
         @apply leading-5 pb-4
     }
 
+    .entrada{
+        @apply animate-jump-in animate-once animate-duration-[1000ms]
+    }
+
     @media(max-width:867px){
         
         .indexC{
@@ -70,21 +82,22 @@
             @apply rounded-tr-[20%] 
         }
 
-    }
-    
-    /*.salida{
-        animation: myAnim 1s ease 0s 1 normal forwards;
-    }
-    @keyframes myAnim {
-        0% {
-            opacity: 1;
-            transform: scale(1);
+        .cambiaP1{
+            @apply text-7xl
         }
-    
-        100% {
-            opacity: 0;
-            transform: scale(0.6);
+
+        .cambiaP2{
+            @apply text-4xl
         }
-    } */
-}   
+
+        .tituloS{
+            @apply text-2xl
+        }
+
+        .texto{
+            @apply text-xl
+        }
+
+    }
+}
 

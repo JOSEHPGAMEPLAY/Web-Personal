@@ -3,15 +3,15 @@ import './Index.css';
 
 export default function Index() {
   return (
-    <div className="indexC" >
+    <div className="indexC entrada" >
       <div className='imgCI'>
         <img src={InfoIndex.img} className="imagenI"></img>
       </div>
       <div className="tituloCI">
-        <h1 className='tituloP text-[45px]'>
+        <h1 className='tituloP cambiaP1 mb-16'>
           {InfoIndex.nombre}
         </h1>
-        <h1 className='tituloP'>
+        <h1 className='tituloP cambiaP2'>
           {InfoIndex.titulo}
         </h1>
       </div>
@@ -44,7 +44,6 @@ export default function Index() {
             )
           }
         </ul>
-        <br />
       </div>
     </div>
   )

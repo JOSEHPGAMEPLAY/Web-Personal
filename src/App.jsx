@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className={"app "+tema} >
-      <div className="sticky top-0 min-w-full z-50">
+      <div className="sticky top-0 min-w-full z-50 min-h-[36px] max-h-[210px]">
         <Header temaVal={asignatema} className="cabecera"/>
       </div>
       <Contenido className="contenido"/>
