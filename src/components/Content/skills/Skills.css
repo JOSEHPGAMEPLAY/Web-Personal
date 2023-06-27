@@ -18,19 +18,24 @@
     }
 
     .imagenes{
-        @apply grid grid-cols-3 place-items-center content-start mb-8
+        @apply grid grid-cols-3 place-items-center content-start
     }
 
     .imagen{
-        @apply w-2/4 h-2/4 mt-4 mb-4
+        @apply w-2/4 h-fit mt-4 mb-4 
     }
 
     .porcentaje{
-        @apply h-6 rounded-full mt-4  w-[100%] bg-blue-300 
+        @apply h-6 rounded-full mt-4  w-[100%] bg-blue-300 drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+        dark:drop-shadow-[0px_0px_7px_rgba(255,255,255,0.5)]
     }
 
     .porcentaje>div{
-        @apply h-6 bg-blue-900 rounded-full
+        @apply h-6 bg-blue-900 rounded-full 
+    }
+
+    .entrada{
+        @apply animate-jump-in animate-once animate-duration-[1000ms]
     }
 
     @media (max-width:450px){
