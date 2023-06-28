@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .estudios{
+        @apply flex flex-col bg-gray-300 rounded-xl p-8 justify-around
+        /* dark */
+        dark:bg-zinc-900 
+    }
+
+    .cursos{
+        @apply flex flex-col 
+    }
+
+    .curso{
+        @apply flex flex-row rounded-[60px] bg-slate-400 mb-6
+        drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+        dark:bg-zinc-800 dark:drop-shadow-[0px_0px_7px_rgba(255,255,255,0.2)]
+    }
+    
+    .estudios>h1{
+        @apply font-Lilita font-black text-[#201a1a] text-[90px] 
+        drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+         shrink grow pb-5 text-center
+        /* dark */
+        dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
+    }
+
+    .curso>img{
+        @apply w-[200px] shrink-0 m-9 
+        bg-[#ffffff62] rounded-[20%]
+        dark:bg-[#fff7f7] dark:rounded-[20%]
+    }
+    .datosCurso{
+        @apply self-center grow m-7
+    }
+
+    .datosCurso>p{
+        @apply text-[30px]
+        dark:text-white
+    }
+
+    @media (max-width: 850px){
+        .curso>img{
+            @apply m-3 grow max-w-xs shrink
+        }
+        .curso{
+            @apply flex-wrap self-center justify-around
+        }
+    }
+
+}
