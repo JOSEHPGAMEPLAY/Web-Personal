@@ -27,7 +27,8 @@
     }
 
     .porcentaje{
-        @apply h-6 rounded-full mt-4  w-[100%] bg-blue-300 drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+        @apply h-6 rounded-full mt-4  w-[100%] bg-blue-300
+         drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
         dark:drop-shadow-[0px_0px_7px_rgba(255,255,255,0.5)]
     }
 

@@ -15,7 +15,7 @@ export default function Index() {
           {InfoIndex.titulo}
         </h1>
       </div>
-      <div className="infoI">
+      {/* <div className="infoI">
         <h2>
           {InfoIndex.titulo2}
         </h2>
@@ -43,7 +43,7 @@ export default function Index() {
             )
           }
         </ul>
-      </div>
+      </div> */}
     </div>
   )
 }
