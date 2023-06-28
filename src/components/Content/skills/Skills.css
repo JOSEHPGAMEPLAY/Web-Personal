@@ -10,18 +10,19 @@
         dark:bg-zinc-900 
     }
 
-    .titulo{
-        @apply font-Lilita font-black text-[#201a1a] text-[80px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
-         shrink grow pb-5
+    .tituloS{
+        @apply font-Lilita font-black text-[#201a1a] text-[90px] 
+        drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+         shrink grow pb-5 text-center
         /* dark */
         dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
     }
 
-    .imagenes{
+    .skills>div{
         @apply grid grid-cols-3 place-items-center content-start
     }
 
-    .imagen{
+    .skills>div>div{
         @apply w-2/4 h-fit mt-4 mb-4 
     }
 
@@ -32,10 +33,6 @@
 
     .porcentaje>div{
         @apply h-6 bg-blue-900 rounded-full 
-    }
-
-    .entrada{
-        @apply animate-jump-in animate-once animate-duration-[1000ms]
     }
 
     @media (max-width:450px){

@@ -37,7 +37,7 @@
         bg-scroll
     }
     
-    .tituloS{
+    .infoI>h2{
         @apply font-Lilita text-[30px] 
         dark:text-zinc-50
     }
@@ -50,17 +50,17 @@
         @apply text-4xl
     }
 
-    .texto{
+    .infoI>p{
         @apply text-[20px]
         dark:text-zinc-100
     }
     
-    .lista{
+    .infoI>ul{
         @apply list-disc list-inside text-slate-900 font-[Arial] text-[17px] 
         dark:text-zinc-100
     }
 
-    .listaI{
+    .infoI>li{
         @apply leading-5 pb-4
     }
 
@@ -90,11 +90,11 @@
             @apply text-4xl
         }
 
-        .tituloS{
+        .infoI>h2{
             @apply text-2xl
         }
 
-        .texto{
+        .infoI>p{
             @apply text-xl
         }
 

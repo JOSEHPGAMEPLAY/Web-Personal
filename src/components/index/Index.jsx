@@ -16,25 +16,24 @@ export default function Index() {
         </h1>
       </div>
       <div className="infoI">
-        
-        <h2 className='tituloS'>
+        <h2>
           {InfoIndex.titulo2}
         </h2>
-        <p className='texto'>
+        <p >
           {InfoIndex.contenido2}
         </p>        
         <br />
-        <ul className='lista'>
+        <ul>
           {InfoIndex.lista2.map((lista)=>
-               <li key={lista} className='listaI'>{lista}</li>
+               <li key={lista}>{lista}</li>
             )
           }
         </ul>
         <br />
-        <h2 className='tituloS'>
+        <h2>
           {InfoIndex.titulo3}
         </h2>
-        <p className='texto'>
+        <p>
           {InfoIndex.contenido3}
         </p>
         <br />

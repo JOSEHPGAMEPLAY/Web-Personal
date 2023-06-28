@@ -26,28 +26,24 @@
         
     }
 
-    .titulo{
-        @apply font-Lilita font-black text-[#201a1a] text-[80px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+    .contenidoAbout>h1{
+        @apply font-Lilita font-black text-[#201a1a] text-[120px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
         self-center align-middle text-center shrink grow pb-5
         /* dark */
         dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
     }
-    .texto{
+    .contenidoAbout>p{
         @apply text-xl pb-3
         /* dark */
         dark:text-zinc-100
     }
-    .entrada{
-        @apply animate-jump-in animate-once animate-duration-[1000ms]
-    }
-
-
+    
     @media(max-width:867px){
         .about{
             @apply p-0 flex-wrap
         }
 
-        .titulo{
+        .contenidoAbout>h1{
             @apply text-6xl
         }
     }

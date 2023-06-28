@@ -8,22 +8,22 @@ function About() {
         <img src={InfoAbout.Img} className="imgAbout" alt="" />
       </div>
       <div className="contenidoAbout">
-        <h1 className='titulo'>
+        <h1>
           ACERCA DE MI
         </h1>
-        <p className='texto'>
+        <p>
           <b>Nombre: </b>
           {InfoAbout.Nombre}
         </p>
-        <p className='texto'>
+        <p>
           <b>Origen: </b>
           {InfoAbout.Origen}
         </p>
-        <p className='texto'>
+        <p>
           <b>Correo: </b>
           {InfoAbout.Correo}
         </p>
-        <p className='texto'>
+        <p>
           <b>Descripcion: </b>
           {InfoAbout.Descripcion2}
           <br />
