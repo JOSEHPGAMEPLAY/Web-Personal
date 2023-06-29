@@ -6,9 +6,10 @@ export default function Experiencia() {
   return (
     <div className='experiencia entrada'>
       <h1>PROYECTOS</h1>
+      <div className='proContenido'>
         {experiencia.proyectos.map(valor=>{
           return(
-            <div key={valor} className='proyectos'>
+            <div key={valor} className='proyectos m-5'>
               <h2>{valor[0]}</h2>
               <p>{valor[1]}</p>
               <Link to="/skills">
@@ -17,7 +18,8 @@ export default function Experiencia() {
             </div>
           )
         })}
-        <h1>EXPERIENCIA</h1>
+      </div>
+      <h1>EXPERIENCIA</h1>
         <img src={experiencia.experiencia[0]} alt="" />
     </div>
   )

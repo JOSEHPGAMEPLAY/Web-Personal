@@ -21,7 +21,7 @@
     }
     
     .estudios>h1{
-        @apply font-Lilita font-black text-[#201a1a] text-[90px] 
+        @apply font-Lilita font-black text-[#201a1a] text-[50px] 
         drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
          shrink grow pb-5 text-center
         /* dark */
@@ -38,7 +38,7 @@
     }
 
     .datosCurso>p{
-        @apply text-[30px]
+        @apply text-[20px]
         dark:text-white
     }
 

@@ -18,3 +18,6 @@ Para iniciar a desarrollar este proyecto proyecto tendremos que tene instalado *
     - npm install -D @tailwindcss/forms
     - npm i react-router-dom
     - npm install animate.css --save
+
+* Vamos a utilizar FormBold para el envio de correos.
+    - npm install axios

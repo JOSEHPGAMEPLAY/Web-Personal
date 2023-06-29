@@ -27,11 +27,12 @@
     }
 
     .contenidoAbout>h1{
-        @apply font-Lilita font-black text-[#201a1a] text-[90px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+        @apply font-Lilita font-black text-[#201a1a] text-[50px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
         self-center align-middle text-center shrink grow pb-5
         /* dark */
         dark:text-white dark:drop-shadow-[0px_0px_2px_rgba(255,255,255,0.5)];
     }
+    
     .contenidoAbout>p{
         @apply text-xl pb-3
         /* dark */
