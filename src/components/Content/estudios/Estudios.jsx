@@ -4,7 +4,7 @@ import './Estudios.css';
 export default function Estudios() {
   return (
     <div className="estudios entrada">
-      <h1 className='titulo'>Estudios</h1>
+      <h1 className='titulo'>ESTUDIOS</h1>
             <div className='cursos'>
         {InfoEstudios.Estudios.map((respuesta)=>{
           const redirectToPage = () => {
@@ -29,7 +29,7 @@ export default function Estudios() {
         }
         )}
            </div>
-      <h1 className='titulo'>Cursos</h1>
+      <h1 className='titulo'>CURSOS</h1>
             <div className='cursos' >
       {InfoEstudios.Cursos.map((respuesta)=>{
         const redirectToPage = () => {

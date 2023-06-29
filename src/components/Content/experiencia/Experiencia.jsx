@@ -5,7 +5,7 @@ import './Experiencia.css'
 export default function Experiencia() {
   return (
     <div className='experiencia entrada'>
-      <h1>Proyectos</h1>
+      <h1>PROYECTOS</h1>
         {experiencia.proyectos.map(valor=>{
           return(
             <div key={valor} className='proyectos'>
@@ -17,7 +17,7 @@ export default function Experiencia() {
             </div>
           )
         })}
-        <h1>Experiencia</h1>
+        <h1>EXPERIENCIA</h1>
         <img src={experiencia.experiencia[0]} alt="" />
     </div>
   )

@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className="contenidoAbout">
         <h1>
-          ACERCA DE MI
+          ABOUT
         </h1>
         <p>
           <b>Nombre: </b>

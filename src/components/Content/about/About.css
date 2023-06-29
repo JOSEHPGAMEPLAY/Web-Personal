@@ -22,7 +22,7 @@
     }
 
     .contenidoAbout{
-        @apply p-10 grow
+        @apply p-1 grow
         
     }
 
