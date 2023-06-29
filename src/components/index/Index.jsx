@@ -11,7 +11,7 @@ export default function Index() {
         <h1 className='tituloP cambiaP1 mb-16'>
           {InfoIndex.nombre}
         </h1>
-        <h1 className='tituloP cambiaP2'>
+        <h1 className='tituloP cambiaP2 font-normal'>
           {InfoIndex.titulo}
         </h1>
       </div>

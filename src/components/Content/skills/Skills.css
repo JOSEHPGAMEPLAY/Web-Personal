@@ -15,7 +15,7 @@
         drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
          shrink grow pb-5 text-center
         /* dark */
-        dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
+        dark:text-white dark:drop-shadow-[0px_0px_3px_rgba(255,255,255,0.5)];
     }
 
     .skills>div{
@@ -28,8 +28,8 @@
 
     .porcentaje{
         @apply h-6 rounded-full mt-4  w-[100%] bg-blue-300
-         drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
-        dark:drop-shadow-[0px_0px_7px_rgba(255,255,255,0.5)]
+         drop-shadow-[0px_0px_3px_rgba(0,0,0,0.5)]
+        dark:drop-shadow-[0px_0px_3px_rgba(255,255,255,0.5)]
     }
 
     .porcentaje>div{

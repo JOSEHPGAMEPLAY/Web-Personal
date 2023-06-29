@@ -17,7 +17,7 @@
     .curso{
         @apply flex flex-row rounded-[60px] bg-slate-400 mb-6
         drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
-        dark:bg-zinc-800 dark:drop-shadow-[0px_0px_7px_rgba(255,255,255,0.2)]
+        dark:bg-zinc-800 dark:drop-shadow-[0px_0px_3px_rgba(255,255,255,0.1)]
     }
     
     .estudios>h1{
@@ -25,7 +25,7 @@
         drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
          shrink grow pb-5 text-center
         /* dark */
-        dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
+        dark:text-white  dark:drop-shadow-[0px_0px_3px_rgba(255,255,255,0.5)];
     }
 
     .curso>img{
@@ -46,8 +46,13 @@
         .curso>img{
             @apply m-3 grow max-w-xs shrink
         }
+
         .curso{
             @apply flex-wrap self-center justify-around
+        }
+        
+        .datosCurso>p{
+            @apply text-[20px]
         }
     }
 
