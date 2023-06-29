@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .contacto{
+        @apply flex flex-col bg-gray-300 rounded-xl p-8 justify-around
+        /* dark */
+        dark:bg-zinc-900 
+    }
+
+    .contacto>h1{
+        @apply font-Lilita font-black text-[#201a1a] text-[50px] drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+        self-center align-middle text-center shrink grow pb-5
+        /* dark */
+        dark:text-white dark:drop-shadow-[0px_0px_2px_rgba(255,255,255,0.5)];
+    }
+
+    .Femail{
+        @apply w-full border-[#e0e0e0]
+         dark:bg-zinc-950 py-3 px-6 text-base font-medium text-[#6B7280]
+          outline-none 
+          dark:focus:caret-[#ff0062]
+          dark:focus:ring-[#ff0062] dark:focus:ring-2 dark:border-none
+          
+    }
+
+    .contacto>form>label{
+        @apply m-3 block text-base font-medium text-[#07074D]
+        dark:text-[#babafa]
+    }
+
+}
