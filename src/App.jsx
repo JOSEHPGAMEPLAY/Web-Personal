@@ -1,6 +1,7 @@
 import Header from "./components/Header/header";
 import Contenido from "./components/Content/Content";
 import { useState } from "react";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [tema, setTema] = useState('');
@@ -15,6 +16,7 @@ function App() {
         <Header temaVal={asignatema} className="cabecera"/>
       </div>
       <Contenido className="contenido"/>
+      <Footer/>
     </div>
   );
 }

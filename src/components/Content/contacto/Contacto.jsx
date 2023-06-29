@@ -31,11 +31,13 @@ export default function Contacto() {
       data: inputs
     })
       .then((r) => {
-        console.log("hello",r);
+        console.log("hello");
+        alert("Correo Enviado");
       })
       .catch((r) => {
-        console.log("error",r);
+        console.log("error");
       });
+
   };
 
   return (
@@ -83,7 +85,9 @@ export default function Contacto() {
           className="Femail rounded-md border-gray-500 "
           placeholder="Ingresa tu mensaje"
         />
-        <button type="submit" className="m-3 hover:shadow-form hover:bg-[#443eb9] rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none">Contactar</button>
+        <button type="submit" 
+        className="m-3 hover:shadow-form hover:bg-[#443eb9] rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none"
+        >Contactar</button>
       </form>
     </div>
   )

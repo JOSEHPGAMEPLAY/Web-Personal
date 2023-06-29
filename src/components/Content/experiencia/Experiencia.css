@@ -19,7 +19,7 @@
     }
     
     .experiencia>img{
-        @apply w-1/6 self-center
+        @apply w-2/6 self-center
     }
     
     .proyectos{
@@ -54,6 +54,14 @@
     @media(max-width:850px){
         .experiencia>h1{
             @apply text-[50px]
+        }
+
+        .proContenido{
+            @apply grid-cols-1
+        }
+
+        .experiencia>img{
+            @apply w-1/2
         }
 
     }
