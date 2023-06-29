@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .experiencia{
+        @apply flex flex-col bg-gray-300 rounded-xl p-8 justify-around
+        /* dark */
+        dark:bg-zinc-900 
+    }
+
+    .experiencia>h1{
+        @apply font-Lilita font-black text-[#201a1a] text-[90px] 
+        drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+         shrink grow pb-5 text-center
+        /* dark */
+        dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
+    }
+    
+    .experiencia>img{
+        @apply w-1/6 self-center
+    }
+    
+    .proyectos{
+        @apply flex flex-col
+    }
+    
+    .proyectos>h2{
+        @apply font-sans font-black text-[#201a1a] text-[25px] 
+        drop-shadow-[0px_0px_7px_rgba(0,0,0,0.5)]
+         shrink grow pb-5 text-center
+        /* dark */
+        dark:text-white dark:drop-shadow-[0px_0px_7px_rgba(190,186,190,0.5)];
+    }
+
+    .proyectos>p{
+        @apply dark:text-white
+    }
+    .Plink{
+        @apply bg-slate-400  w-fit p-2 rounded-full 
+        hover:bg-slate-500 
+        dark:text-white dark:bg-slate-800 dark:hover:bg-slate-700
+    }
+
+    .Plink:hover{
+        @apply animate-jump animate-infinite animate-duration-[8000ms] animate-ease-out
+    }
+
+    @media(max-width:850px){
+        .experiencia>h1{
+            @apply text-[50px]
+        }
+    }
+}
