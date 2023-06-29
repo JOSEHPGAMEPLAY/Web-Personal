@@ -32,11 +32,23 @@ export default {
             transform: 'scale(1)',
             opacity: '1',
           }
+        },
+        'jump-low':{
+          '0%' : {
+            transform: 'scale(100%)',
+          },
+          '50%': {
+            transform: 'scale(90%)',
+          },
+          '100%':{
+            transform: 'scale(100%)',
+          },
         }
     },
     animation: {
       'backInLeft':'backInLeft 1s both',
-      'backInRight':'backInRight 1s both'
+      'backInRight':'backInRight 1s both',
+      'jump-low': 'jump-low .5s both',
     },
     fontFamily: {
       'Lilita':['Lilita one']

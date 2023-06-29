@@ -9,7 +9,8 @@ export default function Estudios() {
         {InfoEstudios.Estudios.map((respuesta)=>{
           return(
             <div className='curso' key={respuesta.key}>
-              <img src={respuesta[0]} className="imagen" alt={respuesta[2]} />
+              <img src={respuesta[0]} 
+              className="imagen animate-jump-low animate-infinite animate-duration-[10000ms]" alt={respuesta[2]} />
               <div className='datosCurso'>
                 <p>
                   <b>{respuesta[1]}</b>
@@ -29,7 +30,8 @@ export default function Estudios() {
       {InfoEstudios.Cursos.map((respuesta)=>{
           return(
             <div className='curso' key={respuesta.key}>
-              <img src={respuesta[0]} className="imagen" alt={respuesta[2]} />
+              <img src={respuesta[0]} 
+              className="imagen animate-jump-low animate-infinite animate-duration-[10000ms]" alt={respuesta[2]} />
               <div className='datosCurso'>
                 <p>
                   <b>{respuesta[1]}</b>

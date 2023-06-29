@@ -33,10 +33,16 @@
     }
 
     .porcentaje>div{
-        @apply h-6 bg-blue-900 rounded-full 
+        @apply w-full bg-blue-600 rounded-full
+        text-center text-white
     }
 
     @media (max-width:450px){
+
+        .skills>div{
+            @apply grid-cols-1
+        }
+
         .imagenes{
             @apply grid-cols-1
         }

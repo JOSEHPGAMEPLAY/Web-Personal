@@ -13,7 +13,7 @@ export default function Skills() {
               return(
                 <div key={valor}>
                   <img src={valor[0]} alt={valor[1]} className="drop-shadow-[0px_0px_7px_rgba(255,255,255,1)] dark:drop-shadow-[0px_0px_7px_rgba(0,0,0,1)]"/>
-                  <div className="porcentaje "><div className={"text-center text-white w-["+valor[2]+"]"}>{valor[2]}</div></div>
+                  <div className="porcentaje "><div style={{ width: `${valor[2]}` }} >{valor[2]}</div></div>
                 </div>
               )
             }
