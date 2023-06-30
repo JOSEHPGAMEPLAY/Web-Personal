@@ -1,4 +1,4 @@
-import { InfoIndex } from '../../data/InfoIndex';
+import { InfoIndex } from '../../../data/InfoIndex';
 import './Index.css';
 
 export default function Index() {
