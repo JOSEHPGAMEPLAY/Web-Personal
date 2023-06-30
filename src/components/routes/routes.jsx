@@ -1,5 +1,5 @@
 import { Route, Routes,  } from 'react-router-dom'
-import Index from '../index/Index'
+import Index from '../Content/index/Index'
 import Skills from '../Content/skills/Skills'
 import Estudios from '../Content/estudios/Estudios'
 import Contacto from '../Content/contacto/Contacto'
