@@ -28,7 +28,7 @@ export default function Footer() {
             <img src={valor[0]} 
             alt={valor[1]} 
             onClick={redirectToPage}
-            className="IconosRedes"
+            className="IconosRedes cursor-pointer"
             />
            </> 
           )
