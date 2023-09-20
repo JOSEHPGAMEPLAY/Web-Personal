@@ -12,7 +12,4 @@
     @apply grow-[1] shrink-0 min-w-max;
   }
 
-  .contenido{
-    @apply grow-[999] 
-  }
 }
