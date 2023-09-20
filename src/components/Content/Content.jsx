@@ -62,7 +62,7 @@ function Contenido() {
       </div>
 
       <Link to={NexR} className="Boton ocultar" onClickCapture={CambioMas}>
-        <button className="justify-items-end">
+        <button className="justify-end">
           <svg xmlns="http://www.w3.org/2000/svg" className="IconDir" fill="none" viewBox="0 0 24 24" strokeWidth="1.5">
             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
           </svg>
