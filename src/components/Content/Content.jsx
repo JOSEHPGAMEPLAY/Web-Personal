@@ -47,7 +47,7 @@ function Contenido() {
   }
 
   return (
-    <div className="contenido">
+    <div className="contenido p-3">
 
       <Link to={NexR} className="Boton ocultar" onClickCapture={CambioMen}>
         <button>
