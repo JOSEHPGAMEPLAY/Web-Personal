@@ -19,7 +19,8 @@
     }
     
     .experiencia>img{
-        @apply w-2/6 self-center
+
+        @apply w-2/6 flex self-center
     }
     
     .proyectos{
@@ -64,5 +65,11 @@
             @apply w-1/2
         }
 
+    }
+
+    @media(min-height:1000px){
+        .experiencia>img{
+            @apply max-h-96 w-auto
+        }
     }
 }

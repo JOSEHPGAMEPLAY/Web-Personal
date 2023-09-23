@@ -29,6 +29,7 @@
 
     .componente{
         @apply p-3
+        grow-[999]
     }
 
 

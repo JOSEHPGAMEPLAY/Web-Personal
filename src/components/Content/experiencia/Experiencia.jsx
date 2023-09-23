@@ -20,7 +20,7 @@ export default function Experiencia() {
         })}
       </div>
       <h1>EXPERIENCIA</h1>
-        <img src={experiencia.experiencia[0]} alt="" />
+        <img src={experiencia.experiencia[0]} alt="" /> 
     </div>
   )
 }
