@@ -67,7 +67,7 @@
 
     }
 
-    @media(min-height:1000px){
+    @media(min-height:500px){
         .experiencia>img{
             @apply max-h-96 w-auto
         }
