@@ -8,7 +8,7 @@ export default function Footer() {
         <img src={InfoFooter.simbolo[0]} 
         alt={InfoFooter.simbolo[1]} 
           className='w-16 drop-shadow-[0px_0px_5px_rgba(255,255,255,1)]'
-        />
+        /> 
         <h1 className='
         font-Lilita text-[25px] self-center
          shrink grow text-center text-white
