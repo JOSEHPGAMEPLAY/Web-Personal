@@ -1,7 +1,7 @@
 ## Proyecto Final Programación Movil I
 ### Resumen
 En este repositorio podemos encontrar el desarrollo del proyecto final de la materia Programación Movil I
-el cual va estar creado con React y Tailwind CSS
+el cual va estar creado con React y Tailwind CSS, este se basa en una pagina web personal donde estara mi informacion.
 
 ### Configuraciones
 Para iniciar a desarrollar este proyecto proyecto tendremos que tene instalado **Node** , utilizaremos **Vite** para crear la App de React y para el control de versiones utilizaremos **Git** el historial de comandos utilizados son los siguientes:
