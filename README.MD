@@ -1,4 +1,4 @@
-## Proyecto Final Programación Movil I
+## Proyecto Portafolio
 ### Resumen
 En este repositorio podemos encontrar el desarrollo del proyecto final de la materia Programación Movil I
 el cual va estar creado con React y Tailwind CSS, este se basa en una pagina web personal donde estara mi informacion.
